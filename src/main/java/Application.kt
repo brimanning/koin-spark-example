@@ -8,7 +8,6 @@ import spark.Spark.get
 
 fun main(args: Array<String>) {
     startKoin {
-        printLogger()
         modules(
             module {
                 single { SomeService() }
